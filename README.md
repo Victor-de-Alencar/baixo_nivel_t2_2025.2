@@ -21,7 +21,7 @@ O programa apresenta um menu principal com as seguintes opções:
    Aplica a cifra de César (+3) na string digitada, mantendo letras maiúsculas e minúsculas.
 
 5. **Descriptografar (Cifra de César)**
-   Desfaz a cifra de César (-3) aplicada anteriormente.
+   Desfaz a cifra de César (-3).
 
 6. **Sair**
    Encerra o programa.
