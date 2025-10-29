@@ -1,4 +1,5 @@
 ; menu_string.asm - NASM 32 bits Linux
+; Link do repositório: https://github.com/Victor-de-Alencar/baixo_nivel_t2_2025.2
 section .data
 menu_msg db 0xA,'=== MENU PRINCIPAL ===',0xA
          db '1. Inverter String',0xA
