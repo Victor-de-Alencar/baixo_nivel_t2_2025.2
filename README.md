@@ -88,6 +88,6 @@ Após a execução, o menu será exibido. O usuário deve digitar a opção dese
 * Outro grande problema foi criar o suporte para inputs sem que ocorra timeout.
 * A função de detecção de palíndromos só funciona para alguns palíndromos específicos, o padrão ainda não foi averiguado.
 * O output da primeira operação se repete num loop infinito de tal maneira que é impossível fazer mais de uma operação na mesma execução do programa.
-* Demais dificulades decorreram da falta de coompreensão da sintaxe. Ocasionando em erros como: "error: comma, colon, decorator or end of line expected after operand".
+* Demais dificulades decorreram da falta de compreensão da sintaxe do assembly. Ocasionando em erros como: "error: comma, colon, decorator or end of line expected after operand".
 
 Link do repositório: https://github.com/Victor-de-Alencar/baixo_nivel_t2_2025.2
