@@ -78,6 +78,14 @@ Após a execução, o menu será exibido. O usuário deve digitar a opção dese
 ## Observações
 
 * O programa trabalha com strings de até **255 caracteres**.
-* A contagem de palavras considera apenas espaços como separadores.
+* A contagem de palavras considera apenas espaços como separadores e só funciona até 9n palavras.
 * O programa utiliza chamadas de sistema Linux (`int 0x80`) e não depende de bibliotecas externas.
 * Foi desenvolvido e testado em **NASM 32 bits** no Linux.
+
+## Dificuldades e Limitações
+
+* A primeira grande dificuldade do trabalho foi configurar o sistema de tal maneira a possibilitar o desenvolvimento em assembly.
+* Outro grande problema foi criar o suporte para inputs sem que ocorra timeout.
+* A função de detecção de palíndromos só funciona para alguns palíndromos específicos, o padrão ainda não foi averiguado.
+* O output da primeira operação se repete num loop infinito de tal maneira que é impossível fazer mais de uma operação na mesma execução do programa.
+* Demais dificulades decorreram da falta de coompreensão da sintaxe. Ocasionando em erros como: "error: comma, colon, decorator or end of line expected after operand".
